@@ -1,3 +1,5 @@
+using System;
+
 namespace MiniBanco.ConsoleApp.Models
 {
     public class ContaPoupanca : Conta

@@ -1,7 +1,8 @@
+using System;
 using MiniBanco.ConsoleApp.Exceptions;
 
-namespace MiniBanco.ConsoleApp.Models;
-
+namespace MiniBanco.ConsoleApp.Models
+{
 public class ContaCorrente : Conta
 {
 	public ContaCorrente(string titular, int numero, decimal saldoInicial)
@@ -29,5 +30,5 @@ public class ContaCorrente : Conta
             RegistrarTransacao("Tarifa de Manutenção Mensal", "Tarifa", tarifaManutencao);
         }
     }
-
+}
 
