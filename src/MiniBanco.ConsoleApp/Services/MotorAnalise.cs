@@ -16,6 +16,8 @@ namespace MiniBanco.ConsoleApp.Services
 
         public ResultadoAnalise()
         {
+            ClassificacaoFinal = string.Empty;
+            AcaoCorporativa = string.Empty;
             ItensCriticosTarifas = new List<Transacao>();
             ItensAtencaoSaques = new List<Transacao>();
         }
