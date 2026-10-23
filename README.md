@@ -82,6 +82,10 @@ Certifique-se de ter o SDK do .NET instalado em sua máquina.
    ```
 
 ---
+**Vídeo demonstrativo:**
+```link
+https://docs.google.com/videos/d/1Knbn1fhlP41jILIhNvCjpIVlE247BH48OnKYv8vQ8-o/play?usp=sharing
+```
 
 ## Desenvolvedores e Contribuição
 
