@@ -5,7 +5,9 @@ namespace MiniBanco.ConsoleApp.Models
 {
 public class ContaCorrente : Conta
 {
-	public ContaCorrente(string titular, int numero, decimal saldoInicial)
+        internal readonly object LimiteChequeEspecial;
+
+        public ContaCorrente(string titular, int numero, decimal saldoInicial)
 		: base(titular, numero, saldoInicial)
     {
         this.LimiteChequeEspecial = limiteChequeEspecial;
