@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-
+// correção geral
     public abstract class Conta
     {
         public string Titular { get; protected set; }

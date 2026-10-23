@@ -4,6 +4,7 @@ using MiniBanco.ConsoleApp.Models;
 using MiniBanco.ConsoleApp.Exceptions;
 using MiniBanco.ConsoleApp.Services;
 
+// Correção geral
 namespace MiniBanco.ConsoleApp
 {
     class Program
